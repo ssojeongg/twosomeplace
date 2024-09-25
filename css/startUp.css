@@ -374,6 +374,9 @@ footer .gold {
   .startUp .number {
     white-space: nowrap;
   }
+  .startUp .email input {
+    margin-bottom: 5px;
+  }
   .startUp input, .startUp select {
     padding: 4px 0;
   }
