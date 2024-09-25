@@ -43,6 +43,8 @@ button, i {
 .inner {
   max-width: 1200px;
   margin: 0 auto;
+  overflow-x:hidden;
+  padding: 0 30px;
 }
 .show {
   display: block;

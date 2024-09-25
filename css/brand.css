@@ -538,7 +538,7 @@ footer .gold {
   }
   /* full slide */
   .slide1 {
-    max-width: 767px;
+    width: 100%;
   }
   .slide swiper-slide {
     max-width: 767px;
@@ -565,7 +565,7 @@ footer .gold {
   .alist .text {
     top: 8rem;
     left: 8rem;
-    max-width: 300px;
+    max-width: 230px;
     animation-name: ani;
     animation-delay: 0.3s;
     animation-duration: 2s;
@@ -580,7 +580,7 @@ footer .gold {
     position: relative;
   }
   .franchise .text {
-    max-width: 400px;
+    max-width: 230px;
   }
   .franchise h2 {
     font-size: 2.5rem;
@@ -593,6 +593,12 @@ footer .gold {
   }
   .franchise .left__btn {
     margin-bottom: 10px;
+    display: block;
+    width: 230px;
+  }
+  .franchise .right__btn {
+    display: block;
+    width: 230px;
   }
   .franchise .img {
     position: absolute;
@@ -665,21 +671,22 @@ footer .gold {
   }
   /* footer */
   footer {
-    max-width: 767px;
-  }
-  footer .inner {
-    margin: 0px 50px;
+    width: 100%;
   }
   footer .top_ft {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+  }
+  footer .top_ft .ft_left p {
+    font-size: 0.9rem;
   }
   footer .ft_left {
     display: flex;
     flex-direction: row;
+    gap: 10px;
   }
   footer .ft_left p {
-    margin-right: 20px;
     white-space: nowrap;
   }
   footer .ft_right {
