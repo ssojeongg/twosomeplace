@@ -558,13 +558,14 @@ footer .gold {
   } 
   .alist h2 {
     font-size: 3rem;
+    text-align: center;
   }
   .alist h3 {
     font-size: 2rem;
   }
   .alist .text {
     top: 8rem;
-    left: 8rem;
+    left: 6rem;
     max-width: 230px;
     animation-name: ani;
     animation-delay: 0.3s;
@@ -679,7 +680,7 @@ footer .gold {
     overflow-x: hidden;
   }
   footer .top_ft .ft_left p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   footer .ft_left {
     display: flex;
