@@ -205,6 +205,9 @@ input {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+.user a {
+  display: block;
+}
 .user a:after {
   content: " *";
   color: var(--red);
@@ -357,6 +360,9 @@ footer .gold {
     max-width: 767px;
     padding: 50px;
   }
+  .startUp h2 {
+    font-size: 3rem;
+  }
   .startUp .agree h3, .user h3 {
     font-size: 1.8rem;
   }
@@ -373,29 +379,29 @@ footer .gold {
   }
   .startUp .number input:nth-of-type(3),
   .startUp .number input:nth-of-type(4) {
-    width: 120px;
+    width: 101px;
   }
   .startUp button {
     padding: 5px 25px;
   }
-  
-  /* footer */
-  footer {
-    max-width: 767px;
-  }
-  footer .inner {
-    margin: 0px 50px;
+   /* footer */
+   footer {
+    width: 100%;
   }
   footer .top_ft {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+  }
+  footer .top_ft .ft_left p {
+    font-size: 1rem;
   }
   footer .ft_left {
     display: flex;
     flex-direction: row;
+    gap: 10px;
   }
   footer .ft_left p {
-    margin-right: 20px;
     white-space: nowrap;
   }
   footer .ft_right {
