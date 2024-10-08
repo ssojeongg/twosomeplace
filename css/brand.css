@@ -187,6 +187,9 @@ nav>ul>li:hover>a {
   font-size: 1.3rem;
   color: var(--gray);
 }
+.mySwiper2 {
+  height: 500px;
+}
 .best_menu swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -203,10 +206,14 @@ nav>ul>li:hover>a {
 }
 .best_menu swiper-slide a {
   display: block;
+} 
+.best_menu swiper-slide p {
   color: #fff;
   font-size: 1rem;
+  height: 30px;
+  line-height: 30px;
   background-color: var(--black);
-} 
+}
 /* alist */
 .alist {
   background-image: url(../images/main_alist_pc.jpg);
@@ -259,6 +266,12 @@ nav>ul>li:hover>a {
 }
 .franchise .text {
   width: 500px;
+}
+.franchise .text_in {
+  top: 0;
+  left: 0;
+  position: relative;
+  z-index: 999;
 }
 .franchise h2 {
   text-align: center;

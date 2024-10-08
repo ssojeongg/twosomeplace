@@ -24,6 +24,7 @@
   })
 }
 
+
 // top arrow button 
 {
   const arrow = document.querySelector(".arrow");
