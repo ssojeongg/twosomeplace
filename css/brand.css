@@ -556,6 +556,9 @@ footer .gold {
   .slide1 {
     width: 100%;
   }
+  .mySwiper2 {
+    height: 300px;
+  }
   .slide swiper-slide {
     max-width: 767px;
   }

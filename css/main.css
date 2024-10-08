@@ -43,7 +43,7 @@ body {
 }
 .left>a , .right>a {
   width: 100%;
-  height: 100vh;
+  height: 50%;
 }
 .left>a , .right>a:hover {
   cursor: pointer;
